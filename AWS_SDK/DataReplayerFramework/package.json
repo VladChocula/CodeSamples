@@ -1,0 +1,14 @@
+{
+    "name": 'DataReplayerFramework',
+    "version": "1.0.1",
+    "description": "Framework used to re-deploy sporting event data",
+    "license": "UNLICENSED",
+    "author": "Steven Oliveira",
+    "dependencies": {
+        "aws-sdk": "^2.1633.0",
+        "json-beautify": "^1.1.1",
+        "jsonpath": "^1.0.2",
+        "lodash": "^4.17.21",
+        "uuidv4": "^6.2.13"
+    }
+}

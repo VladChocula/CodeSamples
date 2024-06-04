@@ -1,0 +1,11 @@
+{
+    "name": "data-broker",
+    "version": "1.0.1",
+    "description": "Broker for event data being pushed into the service system.",
+    "scripts": {},
+    "author": "Steven Oliveira",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1633.0"
+    }
+}
