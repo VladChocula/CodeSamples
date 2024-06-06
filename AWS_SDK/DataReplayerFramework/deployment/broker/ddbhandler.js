@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-east-1' });
 const dynamo = new AWS.DynamoDB.DocumentClient();
-const tableName = 'us-event-replayer';
+const tableName = 'us-sports-event-replayer';
 
 const sendResponse = (status, body) => {
     const response = {
