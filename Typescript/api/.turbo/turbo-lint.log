@@ -1,0 +1,8 @@
+$ eslint "{src,apps,libs,test}/**/*.ts" --fix
+
+C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\apps\api\src\user\__tests__\user.controller.int.spec.ts
+   7:10  warning  'mockSignupRequest' is defined but never used     @typescript-eslint/no-unused-vars
+  12:7   warning  'userService' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+

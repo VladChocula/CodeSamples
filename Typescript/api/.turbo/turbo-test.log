@@ -1,0 +1,29 @@
+$ jest
+ts-jest[ts-jest-transformer] (WARN) Got a `.js` file to compile while `allowJs` option is not set to `true` (file: C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\packages\lib-server\dist\index.js). To fix this:
+  - if you want TypeScript to process JS files, set `allowJs` to `true` in your TypeScript config (usually tsconfig.json)
+  - if you do not want TypeScript to process your `.js` files, in your Jest config change the `transform` key which value is `ts-jest` so that it does not match `.js` files anymore
+ts-jest[ts-jest-transformer] (WARN) Got a `.js` file to compile while `allowJs` option is not set to `true` (file: C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\packages\lib-server\dist\apis\client-api.module.js). To fix this:
+  - if you want TypeScript to process JS files, set `allowJs` to `true` in your TypeScript config (usually tsconfig.json)
+  - if you do not want TypeScript to process your `.js` files, in your Jest config change the `transform` key which value is `ts-jest` so that it does not match `.js` files anymore
+PASS src/user/__tests__/user.service.int.spec.ts (6.471 s)
+PASS src/user/__tests__/user.service.spec.ts (6.461 s)
+[31m[Nest] 5404  - [39m06/12/2025, 7:52:34 PM [31m  ERROR[39m [38;5;3m[UserRepository] [39m[31mFailed to find user, Error: Not Found[39m
+[31m[Nest] 5404  - [39m06/12/2025, 7:52:34 PM [31m  ERROR[39m [38;5;3m[UserRepository] [39m[31mFailed to find user, Error: Not Found[39m
+[31m[Nest] 5404  - [39m06/12/2025, 7:52:34 PM [31m  ERROR[39m [38;5;3m[UserRepository] [39m[31mUser exists Error: [39m
+[31m[Nest] 5404  - [39m06/12/2025, 7:52:34 PM [31m  ERROR[39m [38;5;3m[UserRepository] [39m[31mFailed to create user, Error: Error[39m
+[31m[Nest] 5404  - [39m06/12/2025, 7:52:34 PM [31m  ERROR[39m [38;5;3m[UserRepository] [39m[31mFailed to create user, Error: Missing Required Fields[39m
+PASS src/user/__tests__/user.repository.spec.ts (6.566 s)
+ts-jest[ts-jest-transformer] (WARN) Got a `.js` file to compile while `allowJs` option is not set to `true` (file: C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\packages\lib-server\dist\apis\user-client.service.js). To fix this:
+  - if you want TypeScript to process JS files, set `allowJs` to `true` in your TypeScript config (usually tsconfig.json)
+  - if you do not want TypeScript to process your `.js` files, in your Jest config change the `transform` key which value is `ts-jest` so that it does not match `.js` files anymore
+ts-jest[ts-jest-transformer] (WARN) Got a `.js` file to compile while `allowJs` option is not set to `true` (file: C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\packages\lib-server\dist\apis\user-client.service.js). To fix this:
+  - if you want TypeScript to process JS files, set `allowJs` to `true` in your TypeScript config (usually tsconfig.json)
+  - if you do not want TypeScript to process your `.js` files, in your Jest config change the `transform` key which value is `ts-jest` so that it does not match `.js` files anymore
+PASS src/user/__tests__/user.controller.int.spec.ts (7.451 s)
+PASS src/user/__tests__/user.controller.spec.ts (7.479 s)
+
+Test Suites: 5 passed, 5 total
+Tests:       19 passed, 19 total
+Snapshots:   0 total
+Time:        8.172 s
+Ran all test suites.

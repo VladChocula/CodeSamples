@@ -1,0 +1,11 @@
+$ eslint "{src,apps,libs,test}/**/*.ts" --fix
+
+C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\apps\gateway\test\siwe.controller.e2e-spec.ts
+  45:13  warning  'response' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  74:13  warning  'response' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\WebDev\QA_Engineer_Challenge\xborg-backend-challenge\apps\gateway\test\user.controller.e2e-spec.ts
+  30:9  warning  'storedUser' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 3 problems (0 errors, 3 warnings)
+
